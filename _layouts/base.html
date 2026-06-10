@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Eleventy" />
+    <title>{{ title }} | Killjoy Graphics</title>
+    {% if description -%}
+    <meta name="description" content="{{ description }}" />
+    {% endif -%}
+    <link rel="stylesheet" href="/css/style.css?3" />
+    <link rel="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    {%- include "fonts.html" -%}
+    <script type="text/javascript" src="/assets/masonry.js"></script>
+    {%- include "favicon.html" -%} {% if contact -%}
+    <script src="https://unpkg.com/@botpoison/browser" async></script>
+    <script
+      src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"
+      async
+    ></script>
+    <script src="/assets/contact.js"></script>
+    {% endif -%}
+  </head>
+  <body {%- if css_class %} class="{{ css_class }}" {%- endif -%}>
+    <header>
+      <div class="container">{% include "navbar.html" %}</div>
+    </header>
+
+    <main>
+      <div class="container">{{ content }}</div>
+    </main>
+
+    <footer>
+      &copy; Killjoy Graphics 2025 &nbsp;&nbsp;-&nbsp;&nbsp;
+      <a rel="nofollow" href="https://chobble.com"> site by chobble.com </a>
+    </footer>
+  </body>
+</html>

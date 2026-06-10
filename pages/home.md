@@ -1,6 +1,6 @@
 ---
+layout: home.html
+title: Graphics by Killjoy
+css_class: home
 permalink: "/"
-layout: "home.html"
 ---
-
-# Home

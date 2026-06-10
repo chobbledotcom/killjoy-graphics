@@ -1,0 +1,37 @@
+---
+layout: base.html
+---
+
+{{ content }}
+
+<section class="gallery-images grid hidden">
+  {% for image in collections.images %}
+  <article>
+    <button tabindex="0" popovertarget="image-{{ forloop.index }}">
+      <img
+        alt=""
+        loading="lazy"
+        src="/images/{{ image }}"
+        eleventy:widths="200,400,800"
+      />
+    </button>
+
+    <div popover id="image-{{ forloop.index }}" class="popover-container">
+      <button
+        class="close-btn"
+        popovertarget="image-{{ forloop.index }}"
+        popovertargetaction="hide"
+      >
+        &times;
+      </button>
+      <img
+        src="/images/{{ image }}"
+        alt=""
+        loading="lazy"
+        class="popover-img"
+        eleventy:widths="400,800,1600"
+      />
+    </div>
+  </article>
+  {% endfor %}
+</section>
