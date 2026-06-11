@@ -1,14 +1,17 @@
+const path = require("path");
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 const fg = require("fast-glob");
 const { configureScss } = require("./_lib/scss");
 
-const images = fg.sync(["images/*.jpg"]);
+const images = fg.sync(["src/images/*.jpg"]);
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget("./src/**/*");
 
+	// Configure SCSS compilation
 	configureScss(eleventyConfig);
 
+	// Ignore SCSS partials (files starting with underscore)
 	eleventyConfig.ignores.add("src/**/_*.scss");
 
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
@@ -24,15 +27,16 @@ module.exports = function (eleventyConfig) {
 	});
 
 	eleventyConfig.addPassthroughCopy("src/assets");
-	eleventyConfig.addPassthroughCopy({ "images": "images" });
+	eleventyConfig.addPassthroughCopy("src/images");
 	eleventyConfig.addPassthroughCopy({
 		"src/assets/favicon/*": "/",
 	});
 
 	eleventyConfig.addCollection("images", (collection) => {
-		return images.map((i) => i.split("/")[1]).reverse();
+		return images.map((i) => i.split("/")[2]).reverse();
 	});
 
+	// Base configuration
 	return {
 		dir: {
 			input: "src",

@@ -1,59 +1,60 @@
 {
-  inputs = { };
+  inputs = {
+    nixpkgs.url = "nixpkgs";
+  };
 
   outputs =
-    { ... }:
+    { self, nixpkgs }:
     let
-      forAllSystems = f: { x86_64-linux = f "x86_64-linux"; };
+      systems = [ "x86_64-linux" ];
+      forAllSystems = nixpkgs.lib.genAttrs systems;
+
+      makeEnvForSystem =
+        system:
+        let
+          pkgs = import nixpkgs { system = system; };
+
+          devDependencies = with pkgs; [
+            nodejs_24
+            biome
+          ];
+        in
+        {
+          inherit pkgs;
+          devEnv = {
+            inherit pkgs;
+            dependencies = devDependencies;
+          };
+        };
     in
     {
       devShells = forAllSystems (
         system:
         let
-          pkgs = import <nixpkgs> { inherit system; };
-          bunScripts = pkgs.symlinkJoin {
-            name = "bun-scripts";
-            paths = map (cmd: pkgs.writeShellScriptBin cmd "bun run ${cmd} -- \"$@\"") [
-              "serve"
-              "build"
-              "prepare-dev"
-              "sync-files"
-              "watch"
-              "update-pages"
-              "update-scripts"
-              "fetch-google-reviews"
-              "clean"
-              "test"
-            ];
-          };
+          env = makeEnvForSystem system;
+          inherit (env.devEnv)
+            pkgs
+            dependencies
+            ;
         in
         {
           default = pkgs.mkShell {
-            packages = with pkgs; [
-              bun
-              vips
-              stdenv.cc.cc.lib
-              bunScripts
-            ];
+            buildInputs = dependencies;
 
             shellHook = ''
-              export LD_LIBRARY_PATH="${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH"
+              [ ! -d node_modules ] && npm install
 
               cat <<EOF
 
+              Development environment ready!
+
               Available commands:
-               serve                - Start development server
-               build                - Build the project
-               prepare-dev          - Prepare development environment
-               sync-files           - Synchronize files
-               watch                - Watch for changes
-               update-pages         - Update pages
-               update-scripts       - Update chobble-client scripts
-               fetch-google-reviews - Fetch Google Maps reviews
-               clean                - Clean build directory
-               test                 - Run tests
+               - 'npm run serve'   # Start development server
+               - 'npm run build'   # Build the site in the _site directory
+               - 'lint'            # Lint all files using Biome
 
               EOF
+
               git pull
             '';
           };
