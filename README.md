@@ -1,6 +1,6 @@
-# Noktorum.com
+# Killjoy Graphics
 
-The website for Noktorum tattoo artist - an Eleventy site, built with Nix, hosted on Neocities
+The website for Killjoy Graphics - an Eleventy site, built with Nix, hosted on BunnyCDN
 
 - [Edit pages](src)
 - [Upload images](src/images)

@@ -3,36 +3,26 @@ title: Frequently Asked Questions
 layout: faq.html
 ---
 
-## How do I book an appointment?
+## What services do you offer?
 
-Simply fill out the form on my contact page or message me directly on Instagram. I will ask for a small nonrefundable deposit and we will set an appointment date together.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
 
-## How much do you charge for a tattoo?
+## How do I request a quote?
 
-My prices vary and are generally tailored to each individual design. Please get in contact with your ideas for a quote.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
 
-## How old do I have to be to get a tattoo?
+## What is your typical turnaround time?
 
-I will not tattoo anyone under the age of 18 years.
+Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
 
-## Sprechen Sie Deutsche?
+## Do you work with international clients?
 
-Ein Bissen, aber nicht sehr gut. Ich bin in Schule und mochte mehr lernen. Bitte haben sie geduld mit mir!
+Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, tortor leo tempus leo, eu dictum enim nulla eu magna.
 
-## Do you do cover-ups / tattoo over scars?
+## What file formats do you deliver?
 
-Yes. However this all depends on the detail of the cover-up and severity of the scarring. Feel free to get in contact and we can take a look.
+Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
 
-## Can I bring a friend?
+## Can you match existing brand styles?
 
-Tattooing is not a spectator sport. I ask that you come alone to your appointment (you’re welcome to have a companion drop you off / make sure you’re ok. I just ask that they leave once the session starts.)
-
-## Can I use numbing cream?
-
-I’m ok with you using it, but can’t take any responsibility for its effects. Please do your own research and apply the cream yourself.
-
-## Does it hurt?
-
-I hope so.
-
-_Please note - I only create tattoos for nice human beings. I don’t like racism, I don’t like sexism. I don’t like homophobia. I will not tattoo any members of the far-right. This isn’t up for discussion._
+Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.

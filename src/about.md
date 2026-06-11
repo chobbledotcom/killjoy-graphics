@@ -3,10 +3,20 @@ layout: page.html
 title: About
 ---
 
-Ipsum celiac elit, franzen gastropub tumblr four dollar toast neutral milk hotel knausgaard ut aliquip DIY subway tile. Listicle 8-bit gochujang selvage, JOMO consequat vape adipisicing kombucha blog fashion axe. Salvia adipisicing woke incididunt, lumbersexual laboris la croix taxidermy kickstarter solarpunk wolf intelligentsia.
+Killjoy Graphics is the work of Luke Rogers, a freelance artist & graphic designer based in Berlin.
 
-Pug pinterest excepteur chartreuse. Vegan PBR&B coloring book four loko mumblecore live-edge wolf occupy in ugh vaporware.
+Originally from North England, Luke's background lies heavily within the underground extreme metal & punk scenes, but also has considerable experience designing graphics for fashion retailers, such as Zalando & ASOS. His focus is to provide original designs and artwork for his community & "high-end" corporate clients alike.
 
-Nulla viral keffiyeh, stumptown shabby chic messenger bag anim. Ipsum sriracha master cleanse vibecession in kogi celiac literally selfies chia ut listicle occupy gorpcore YOLO.
+*Services include:*
 
-**Migas banh mi microdosing ad. Chia semiotics ex id bodega boys activated charcoal deserunt esse.**
+- Record Cover Design
+- Layout
+- Concept Artwork
+- Merchandise Design
+- Individual Designs
+- Design for Print
+- Bands Logos
+- Logos & Letterheads
+- Web design
+- Social Media Design
+- Video Reel Editing

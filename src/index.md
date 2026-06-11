@@ -1,5 +1,5 @@
 ---
 layout: home.html
-title: Tattoos by Noktorum
+title: Killjoy Graphics
 css_class: home
 ---

@@ -3,7 +3,7 @@
 }:
 
 pkgs.stdenv.mkDerivation {
-  name = "noktorum-com";
+  name = "killjoy-graphics";
 
   src = builtins.filterSource (
     path: type:
