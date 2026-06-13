@@ -3,26 +3,18 @@
   action="https://submit-form.com/{{ site.formspark_id }}"
   data-botpoison-public-key="pk_bbb182a9-1ff3-4d9a-839c-06e45f41a6e6"
 >
-  <input
-    type="hidden"
-    name="_redirect"
-    value="{{ site.url }}/thank-you/"
-  >
+  <input type="hidden" name="_redirect" value="{{ site.url }}/thank-you/" />
   <input
     type="hidden"
     name="_email.from"
     value="{{ site.name }} contact form"
-  >
-  <input
-    type="hidden"
-    name="_email.template.footer"
-    value="false"
-  >
+  />
+  <input type="hidden" name="_email.template.footer" value="false" />
   <input
     type="hidden"
     name="_email.subject"
     value="New message from {{ site.name }} website contact form"
-  >
+  />
   <label for="name">
     Name:
     <input
@@ -31,23 +23,7 @@
       name="name"
       placeholder="Your name"
       required=""
-    >
-  </label>
-  <label for="age-range">
-    Age:
-    <select
-      id="age-range"
-      name="age-range"
-      required=""
-    >
-      <option
-        value=""
-        selected
-        disabled
-      >Please select</option>
-      <option>Under 18</option>
-      <option>Over 18</option>
-    </select>
+    />
   </label>
   <label for="email">
     Email:
@@ -57,32 +33,10 @@
       name="email"
       required=""
       placeholder="Your email address"
-    >
-  </label>
-  <label for="tattoo-placement">
-    Tattoo placement:
-    <input
-      type="text"
-      id="tattoo-placement"
-      name="tattoo-placement"
-      placeholder="eg chest, thigh, back"
-    >
-  </label>
-  <label for="photo">
-    Photo references:
-    <input
-      type="hidden"
-      id="photos"
-      name="photos"
-      role="uploadcare-uploader"
-      data-public-key="163e2e1d19503f76417f"
-      data-images-only="true"
-      data-multiple="true"
-      data-tabs="file camera url facebook gdrive instagram"
-    >
+    />
   </label>
   <label for="message">
-    Tattoo description:
+    Your message:
     <textarea
       id="message"
       name="message"
