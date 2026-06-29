@@ -5,24 +5,36 @@ layout: faq.html
 
 ## What services do you offer?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+I offer a broad range of services, primarily producing graphics and artwork for print and online purposes.
+
+As a fully trained graphic designer, I am able to offer full corporate identity packages, photo retouching, print operation / art working services and any other graphics assistance you may require.
+
+I provide graphic marketing assistance for social media platforms such as Instagram, TikTok & Facebook.
+
+Reels? Adverts? General advice? I'm your guy!
+
+Aside from music related graphics, I also have 10 years of experience as a menswear graphic designer.
+
+A short portfolio of my work in this field can be found on [Behance](https://www.behance.net/killjoygraphics).
 
 ## How do I request a quote?
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+Simply write a request on my [contact page](/contact/).
 
 ## What is your typical turnaround time?
 
-Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
+That's a difficult one! It depends entirely on the scale of project.
+
+A simple logo or letterhead could take a couple of days, whereas a full record cover package could take a couple of months!
+
+Feel free to disclose your time requirements, I'm happy to work to them!
 
 ## Do you work with international clients?
 
-Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, tortor leo tempus leo, eu dictum enim nulla eu magna.
+Yes! I love international clients! Hence why this website is in English!
+
+Ich spreche ein bisschen Deutsch (und möchte mehr lernen!). Bitte hab etwas Geduld mit mir, wenn wir Deutsch miteinander sprechen!
 
 ## What file formats do you deliver?
 
-Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
-
-## Can you match existing brand styles?
-
-Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
+All of the usuals! Let me know what formats you require and I shall do my best to deliver!
